@@ -5,6 +5,7 @@ dependencies:
   - python=3.10
   - conda==22.11.1
   - pandas==1.5.2
+  - pip
   - pip:
       - openbb==2.5.*
       - quantstats==0.0.62
