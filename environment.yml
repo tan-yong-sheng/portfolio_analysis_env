@@ -3,7 +3,6 @@ channels:
   - defaults
 dependencies:
   - pandas==1.5.2
-  - pip
   - pip:
     - nbgitpuller==2.4.3
     - openbb==2.5.*
