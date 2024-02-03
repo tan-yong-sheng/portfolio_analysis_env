@@ -4,23 +4,7 @@ channels:
 dependencies:
   - python=3.10
   - conda==22.11.1
-  - setuptools
-  - pip
-  - wheel
-  - git
-  - numpy
-  - pandas
-  - requests
-  - bs4
-  - lxml
-  - pytz
-  - beautifulsoup4
-  - conda-forge::cvxpy
-  - ta-lib
+  - pandas==1.5.2
   - pip:
-      - pybind11
-      - riskfolio-lib==3.*
       - openbb==2.5.*
-      - quantstats
-      - pyfolio-reloaded
-      - vectorbt
+      - quantstats==0.0.62
