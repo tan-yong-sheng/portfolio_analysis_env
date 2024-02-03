@@ -7,5 +7,7 @@ dependencies:
   - pandas==1.5.2
   - pip
   - pip:
-      - openbb==2.5.*
-      - quantstats==0.0.62
+    - nbgitpuller==2.4.3
+    - openbb==2.5.*
+    - quantstats==0.0.62
+    - watermark==2.4.3
